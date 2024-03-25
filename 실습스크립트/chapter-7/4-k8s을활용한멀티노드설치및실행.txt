@@ -53,6 +53,10 @@ EOF
       - Jenkins URL : http://jenkins:8080
       - 저장
 
+* Dashboard > Jenkins 관리 > Security > Agents
+  "TCP port for inbound agents"
+  disable > Random으로 변경
+
 * sample kubernetes pipeline 생성
     - 이름 : multinode-k8s
     - 타입 : Pipeline
